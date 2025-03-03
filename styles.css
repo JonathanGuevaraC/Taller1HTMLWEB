@@ -38,6 +38,10 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
+.contenido{
+    position: relative;
+  min-height: 100vh;
+}
 
 /* Estilos para las secciones */
 section {
@@ -51,10 +55,11 @@ section {
 /* Estilos para el pie de página */
 footer {
     text-align: center;
-    padding: 10px 0;
     background-color: #333;
     color: #fff;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    position: fixed; 
+    padding: 10px 0;
+bottom: 0; 
+left: 0;
+right: 0; 
 }
